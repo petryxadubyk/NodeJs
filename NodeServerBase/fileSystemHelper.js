@@ -123,20 +123,16 @@ exports.serve_page = function(req, res) {
 
     var page = resp.get_page_name(req);
 
-    fs.readFile(
-        'basic.html',
+    fs.readFile('basic.html', 'utf8',
         function (err, contents) {
             if (err) {
                 resp.send_failure(res, 500, err);
                 return;
             }
 
-            contents = contents.toString('utf8');
-
             // replace page name, and then dump to output.
-            contents = contents.replace('{{PAGE_NAME}}', page);
             res.writeHead(200, { "Content-Type": "text/html" });
-            res.end(contents);
+            res.end(contents.replace('{{PAGE_NAME}}', page));
         }
     );
 };

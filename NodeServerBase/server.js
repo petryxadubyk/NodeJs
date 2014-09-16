@@ -4,6 +4,13 @@ var http = require('http'),
     responses = require('./respModule'),
     resp = responses.create_responses();
 
+//ROUTES TO HANDLE
+//  /albums.json
+//  /albums/italy2012.json
+//  /content/BLAH.html
+//  /templates/BLAH.html
+//  /pages/home
+
 function handle_incoming_request(req, res){
     req.parsed_url = url.parse(req.url, true);
     var core_url = req.parsed_url.pathname;
