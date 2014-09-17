@@ -7,16 +7,15 @@ $(function(){
     var initPage = function() {
  
         // Load the HTML template
-        $.get("/templates/home.html", function(d){
+        $.get("/templates/admin_add_photos.html", function(d){
             tmpl = d;
         });
-
  
         // Retrieve the server data and then initialise the page  
         $.getJSON("/v1/albums.json", function (d) {
             $.extend(tdata, d.data);
         });
- 
+
         // When AJAX calls are complete parse the template 
         // replacing mustache tags with vars
         $(document).ajaxStop(function () {
