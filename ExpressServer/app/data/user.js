@@ -1,6 +1,6 @@
 
 var async = require('async'),
-    bcrypt = require('bcrypt'),
+    bcrypt = require('bcrypt-nodejs'),
     db = require("./db.js"),
     uuid = require('node-uuid'),
     backhelp = require("./backend_helpers.js");
@@ -42,7 +42,7 @@ exports.register = function (email, display_name, password, callback) {
                 cb(backhelp.missing_data("password"));
             else
                 // generate a password hash
-                bcrypt.hash(password, 10, cb);
+                bcrypt.hash(password, 10, function () {}, cb);
         },
 
         // create the album in mongo.
@@ -85,7 +85,7 @@ function user_by_field (field, value, callback) {
     var o = {};
     o[field] = value;
 
-    db.albums.find( o ).toArray(function (err, results) {
+    db.users.find( o ).toArray(function (err, results) {
         if (err) {
             callback(err);
             return;

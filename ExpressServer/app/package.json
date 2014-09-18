@@ -11,6 +11,10 @@
   "dependencies": {
       "express": "3.x",
       "async": "0.x",
-      "mongodb": "1.2.x"
+      "mongodb": "1.2.x",
+      "mysql": "x",
+      "generic-pool": "x",
+      "bcrypt-nodejs": "x",
+      "node-uuid": "x"
   }
 }
