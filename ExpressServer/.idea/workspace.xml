@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="2312">
-              <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.24918567" vertical-offset="0" max-vertical-offset="2380">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -56,18 +56,8 @@
       <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/handlers/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="3247">
-              <caret line="150" column="56" selection-start-line="150" selection-start-column="56" selection-end-line="150" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="javascript_my_workout.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../javascript/javascript_my_workout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24918567" vertical-offset="0" max-vertical-offset="8755">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3247">
+              <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -166,13 +156,15 @@
         <option value="$PROJECT_DIR$/static/templates/home.html" />
         <option value="$PROJECT_DIR$/app/package.json" />
         <option value="$PROJECT_DIR$/app/data/user.js" />
-        <option value="$PROJECT_DIR$/app/server.js" />
         <option value="$PROJECT_DIR$/app/handlers/users.js" />
+        <option value="$PROJECT_DIR$/../../javascript/javascript_my_workout.js" />
+        <option value="$PROJECT_DIR$/app/server.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
+    <option name="x" value="711" />
+    <option name="y" value="39" />
     <option name="width" value="1545" />
     <option name="height" value="1000" />
   </component>
@@ -406,7 +398,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="0" width="1545" height="1000" extended-state="0" />
+    <frame x="711" y="39" width="1545" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -746,26 +738,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/server.js">
+    <entry file="file://$PROJECT_DIR$/../../javascript/javascript_my_workout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="2312">
-          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.52931595" vertical-offset="9042" max-vertical-offset="9656">
+          <caret line="551" column="36" selection-start-line="551" selection-start-column="36" selection-end-line="551" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/handlers/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2533" max-vertical-offset="3247">
-          <caret line="150" column="56" selection-start-line="150" selection-start-column="56" selection-end-line="150" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="3247">
+          <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../javascript/javascript_my_workout.js">
+    <entry file="file://$PROJECT_DIR$/app/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24918567" vertical-offset="0" max-vertical-offset="8755">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.24918567" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -6,6 +6,10 @@ var http = require('http'),
     userHandler = require('./handlers/users'),
     helper = require('./handlers/helpers');
 
+//Two key global variables in node.js
+//global.const = 'CONSTANT_GLOBAL';
+//process.exit(-1);
+
 //Express.js is build on top of Connect.js witch provides lots of Middleware functionality (like working with logger, cookies, cache, etc)
 //Not all connect.js functionality is re-exposed by express.js, but can be used as well;
 
